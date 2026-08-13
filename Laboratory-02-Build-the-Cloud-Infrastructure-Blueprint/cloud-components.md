@@ -2,78 +2,62 @@
 
 1. Compute Resources
 
-Example in the Linux Environment
-
-The Linux environment uses an Intel Xeon E312xx (Sandy Bridge, IBRS update) CPU with 1 CPU core and 1.9 GiB of RAM.
+### Example in the Linux Environment
+The KillerCoda Linux environment uses an Intel Xeon E312xx (Sandy Bridge, IBRS update) processor with 1 CPU core and 1.9 GiB of RAM.
 
 ### Purpose
-
-Compute resources provide the processing power needed to run applications, execute commands, and perform computing tasks.
+Compute resources provide processing power and memory needed to execute applications, services, and system tasks.
 
 ### Importance in Cloud Computing
-
-Compute resources are important in cloud computing because they allow users to run applications, services, and workloads without needing to manage physical servers directly. Cloud providers can allocate and scale compute resources based on workload requirements.
+Compute resources are important because they allow cloud users to run applications, virtual machines, and workloads on demand. Cloud providers can increase or decrease computing resources depending on user requirements.
 
 ### Relation to the KillerCoda Linux Environment
-
-The KillerCoda environment provides a virtual Linux server with an Intel Xeon CPU, 1 CPU core, and 1.9 GiB of RAM. These resources allow the Linux operating system and commands used in the laboratory to run.
+The KillerCoda environment provides virtual compute resources, including a CPU and RAM, that allow Ubuntu Linux and laboratory commands to run.
 
 ---
 
-2. Storage Resources
+## 2. Storage Resources
 
 ### Example in the Linux Environment
-
-The Linux environment has a 20 GB virtual disk identified as `/dev/vda`. The main filesystem is `/dev/vda1` with a size of 19 GB.
+The Linux environment contains a virtual disk (`/dev/vda`) with a capacity of 20 GB. The main filesystem (`/dev/vda1`) has a size of 19 GB.
 
 ### Purpose
-
-Storage resources are used to store the operating system, applications, configuration files, and other data.
+Storage resources are used to save operating system files, applications, configuration files, and user data.
 
 ### Importance in Cloud Computing
-
-Storage is important in cloud computing because applications and services need a reliable place to store and retrieve data. Cloud storage also allows data to be managed independently from the compute resources.
+Storage is important because cloud applications need reliable and scalable data storage. Cloud storage services provide persistent and accessible storage for systems and users.
 
 ### Relation to the KillerCoda Linux Environment
-
-The KillerCoda environment provides a virtual 20 GB disk. The main filesystem `/dev/vda1` is mounted at `/` and is used by the Linux operating system to store system files and other data.
+The Ubuntu environment stores files and system data on the `/dev/vda` virtual disk and uses mounted filesystems such as `/`, `/boot`, and `/boot/efi`.
 
 ---
 
- 3. Networking Resources
+## 3. Networking Resources
 
 ### Example in the Linux Environment
-
-The main network interface is `enp1s0` with the IPv4 address `172.30.1.2/24`.
+The primary network interface is `enp1s0` with the IP address `172.30.1.2/24`.
 
 ### Purpose
-
-Networking resources allow computers, servers, applications, and users to communicate with each other.
+Networking resources allow communication between systems, users, applications, and cloud services.
 
 ### Importance in Cloud Computing
-
-Networking is important in cloud computing because cloud resources need to communicate with users, applications, databases, and other services. It also enables access to cloud-hosted applications and services.
+Networking is essential because cloud resources must communicate with each other and provide access to users over networks and the internet.
 
 ### Relation to the KillerCoda Linux Environment
-
-The KillerCoda Linux environment uses the `enp1s0` network interface with the IPv4 address `172.30.1.2/24`. This provides network connectivity for the virtual Linux environment.
+The KillerCoda Linux environment uses the `enp1s0` network interface to provide network connectivity and communication.
 
 ---
 
-4. Operating System
+## 4. Operating System
 
 ### Example in the Linux Environment
-
-The operating system is Ubuntu 24.04.4 LTS (Noble Numbat), running kernel version `6.8.0-136-generic`.
+The operating system is Ubuntu 24.04.4 LTS (Noble Numbat) with kernel version `6.8.0-136-generic`.
 
 ### Purpose
-
-The operating system manages the computer's hardware and provides an environment for applications and users to run.
+The operating system manages hardware resources and provides a platform for applications and users.
 
 ### Importance in Cloud Computing
-
-An operating system is important in cloud computing because it manages the underlying compute, memory, storage, networking, and applications running on a virtual machine or server.
+Operating systems are important because they manage compute, storage, networking, and applications running on cloud servers and virtual machines.
 
 ### Relation to the KillerCoda Linux Environment
-
-KillerCoda provides an Ubuntu 24.04.4 LTS Linux environment. The operating system manages the available CPU, memory, storage, and networking resources and allows us to investigate the cloud server using Linux commands.
+Ubuntu Linux manages the CPU, memory, storage, and networking resources available in the KillerCoda environment.
