@@ -1,5 +1,5 @@
 # Mission Reflection
- 1. Which cloud infrastructure component do you think is the most important? Why?
+## 1. Which cloud infrastructure component do you think is the most important? Why?
 
 I think compute resources are one of the most important cloud infrastructure components because they provide the processing power needed to run applications and services. During the laboratory, I observed that the KillerCoda environment had an Intel Xeon E312xx processor, 1 CPU core, and 1.9 GiB of RAM. These resources allowed me to execute Linux commands and investigate the server environment.
 
