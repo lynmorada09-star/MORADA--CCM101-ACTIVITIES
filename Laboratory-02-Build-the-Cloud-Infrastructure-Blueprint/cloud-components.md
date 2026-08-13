@@ -2,7 +2,7 @@
 
 1. Compute Resources
 
-##Example in the Linux Environment
+Example in the Linux Environment
 
 The Linux environment uses an Intel Xeon E312xx (Sandy Bridge, IBRS update) CPU with 1 CPU core and 1.9 GiB of RAM.
 
@@ -20,7 +20,7 @@ The KillerCoda environment provides a virtual Linux server with an Intel Xeon CP
 
 ---
 
-## 2. Storage Resources
+2. Storage Resources
 
 ### Example in the Linux Environment
 
@@ -40,7 +40,7 @@ The KillerCoda environment provides a virtual 20 GB disk. The main filesystem `/
 
 ---
 
-## 3. Networking Resources
+ 3. Networking Resources
 
 ### Example in the Linux Environment
 
@@ -60,7 +60,7 @@ The KillerCoda Linux environment uses the `enp1s0` network interface with the IP
 
 ---
 
-## 4. Operating System
+4. Operating System
 
 ### Example in the Linux Environment
 
