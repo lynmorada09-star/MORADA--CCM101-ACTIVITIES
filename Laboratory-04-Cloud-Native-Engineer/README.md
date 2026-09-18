@@ -1,7 +1,7 @@
 # Laboratory Activity 04: The Cloud-Native Engineer
 
 **Course:** CCM 101 - Cloud Computing Architecture & System Administration  
-**Author:** Larenz A. Guillarte  
+**Author:** Ronalyn P. Morada
 **Section:** BSIT 4F  
 **Institution:** University of Eastern Pangasinan  
 
